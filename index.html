@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="./public/icon/icono.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./public/css/style.css">
+		<title>Cell Counter</title>
+	</head>
+	<body>
+		<div id="root">
+
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/neutrofilo.jpg" alt="" />
+					<p style="width: 100px;">Neutro:</p>
+					<input
+						id="neutrofilo"
+						readOnly
+					/>
+				</div>
+				
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/linfocito-reactivo.jpg" alt="" />
+					<p style="width: 100px;">Linfo:</p>
+					<input
+						id="linfocito"
+						readOnly
+					/>
+				</div>
+				
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/monocito.jpg" alt="" />
+					<p style="width: 100px;">Monocito:</p>
+					<input
+						id="monocito"
+						readOnly
+					/>
+				</div>
+			
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/eosinofilo.jpg" alt="" />
+					<p style="width: 100px;">Eosino:</p>
+					<input
+						id="eosinofilo"
+						readOnly
+					/>
+				</div>
+				
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/basofilo.jpg" alt="" />
+					<p style="width: 100px;">Basofilo:</p>
+					<input
+						id="basofilo"
+						readOnly
+					/>
+				</div>
+			
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/linfocito-reactivo.jpg" alt="" />
+					<p style="width: 100px;">Linfo React:</p>
+					<input
+						id="linfocito-reactivo"
+						readOnly
+					/>
+				</div>
+			
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/bandas.jpg" alt="" />
+					<p style="width: 100px;">Bandas:</p>
+					<input
+						id="bandas"
+						readOnly
+					/>
+				</div>
+				
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/metamielocito.jpg" alt="" />
+					<p style="width: 100px;">Metamiel:</p>
+					<input
+						id="metamielocito"
+						readOnly
+					/>
+				</div>
+				
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/mielocito.jpg" alt="" />
+					<p style="width: 100px;">Mielocito:</p>
+					<input
+						id="mielocito"
+						readOnly
+					/>
+				</div>
+				
+				
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/promielocito.jpg" alt="" />
+					<p style="width: 100px;">Promielocito:</p>
+					<input
+						id="promielocito"
+						readOnly
+					/>
+				</div>
+				
+				<div class="container-basic" >
+					<img style="width: 35px" src="./public/img/blastos.jpg" alt="" />
+					<p style="width: 100px;">Blastos:</p>
+					<input
+							id="blastos"
+							readOnly
+							/>
+				</div>
+
+				<div class="container-basic" >
+					<p style="width: 155px;">Limite:</p>
+					<input readonly id="input-limite" />
+				</div>
+
+				<div class="container-basic">
+					<p style="width: 155px;">Total</p>
+					<input readonly id="input-total" />
+				</div>
+				
+				<div class="container-basic">
+					<p style="width: 155px;">Paciente</p>
+					<input type="text" id="input-paciente" value="" />
+				</div>
+			
+				<div class="container-botton">
+					<button>Acerca de</button>
+					<button onclick="setLimite()" >Limite</button>
+					<button onclick="init()">Limpiar</button>
+				</div>
+			</div>
+
+		</div>
+		<script src="./public/js/main.js"></script>
+	</body>
+</html>
